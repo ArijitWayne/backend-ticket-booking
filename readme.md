@@ -48,4 +48,4 @@ npm start
 
 7. **Automated Deletion of tickets**<br>
 To delete tickets automatically, cron-job has been used.
-It will run every 8 hours to delete tickets that are older than 8 hours by comparing the current time with the ticket timing
+It will run every 8 hours to delete tickets that are older than 8 hours by comparing the current time with the ticket timing and delete them from the database and store them in a file **log.txt**.
